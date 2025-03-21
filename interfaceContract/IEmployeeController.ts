@@ -1,4 +1,6 @@
-export interface IEmployeeController{
+import { Request, Response } from "express";
+
+export interface IEmployeeController {
     createNewEmployee(req: Request, res: Response): Promise<Response>;
     getAllEmployee(req: Request, res: Response): Promise<Response>;
     updateEmployee(req: Request, res: Response): Promise<Response>;
