@@ -1,7 +1,7 @@
 import {injectable} from "inversify";
 import { IEmployeeRepository } from "../interfaceContract/IEmployeeRepository";
 // import { Person } from "../types/Person";
-import {EmployeeModel, Person} from "./models/EmployeeModels";
+import {EmployeeModel, Person} from "../Models/EmployeeModel";
 
 
 
